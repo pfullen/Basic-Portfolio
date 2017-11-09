@@ -96,6 +96,11 @@ a  {
 	text-decoration: none;
 }
 
+a:hover {
+	background-color: black;
+	color: white;
+}
+
 .content_area {
 	width: 960px;
 	margin: 0 auto;
@@ -117,6 +122,16 @@ img {
  }
 
 
+ .portfolio-images {
+ 	margin: 0 auto;
+ }
+
+ .portfolio-images img {
+ 	margin-left: 20px;
+ 	padding: 25px;
+ }
+
+
 #side-hr  {
 	width: 80%;
 	margin: 0 auto;
@@ -126,7 +141,7 @@ img {
  	margin-left: 40px ;
  	margin-bottom: 40px;
  	margin-top: 15px;
- 	
+ 	position: relative;
 
  }
 
@@ -189,6 +204,18 @@ footer p {
 
 footer #top {
 	
+}
+
+
+#erp-title {
+	background-color: #4aaaa5;
+	float: left;
+	position: absolute;
+	left: 225px;
+	top: 330px;
+	font-size: 30px;
+	color: #fff;
+	padding: 20px 30px;
 }
 
 
