@@ -7,10 +7,13 @@ html {
 body {
 	color: #777777;
 	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background: url(textured_paper.png);
-	min-height: 100%;
-	position: relative;
+	background: url(../images/textured_paper.png);
+		position: relative;
 	margin: 0;
+	 display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+	
 }
 
 header {
@@ -53,13 +56,14 @@ li {
 
 #main {
 	float: left;
-	width: 630px;
+	width: 610px;
 	background-color: white;
 	margin-top: 50px;
 	margin-right: 30px;
-	padding: 10px;
+	padding-left: 40px;
 	padding-bottom: 25px;
-
+	margin-bottom: 100px;
+	
 
 }
 
@@ -105,10 +109,12 @@ a:hover {
 	width: 960px;
 	margin: 0 auto;
 	min-height: 100%;
+	flex: 1;
 
-	
 
 }
+
+
 
 ul {
 	display: inline;
@@ -136,6 +142,9 @@ img {
  	position: relative;
  }
 
+div img {
+	position: relative;
+}
 
 #side-hr  {
 	width: 80%;
@@ -281,3 +290,38 @@ footer #top {
 
 
 
+	.site-footer, .page-wrap:after {
+  height: 50px; 
+}
+.site-footer {
+
+}
+
+
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.img-title {
+	background-color: #4aaaa5;
+	float: left;
+	display: block;
+	position: absolute;
+	color: white;
+	width: 170px;
+	margin-left: 45px;
+	
+  
+}
+
+.app-img {
+	position: relative;
+	width:  250px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
